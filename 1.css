@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+.login {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  background-image: url("https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=400");
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.5);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+form {
+  display: block;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(40%);
+  flex-direction: column;
+  display: flex;
+  gap: 5px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+}
+label {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+input {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+button {
+  background: rgb(135, 206, 250);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: black;
+  font-weight: bolder;
+}
+button:hover {
+  background: black;
+  color: rgb(135, 206, 250);
+}
